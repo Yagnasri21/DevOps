@@ -1,0 +1,339 @@
+{
+  "id": "01c351df-8860-4397-8f9b-d386366fe482",
+  "version": "2.0",
+  "name": "DevOps_502",
+  "url": "https://www.indiamart.com/",
+  "tests": [{
+    "id": "4f6115d2-1c4f-48cc-a8f7-a9bf330f6c56",
+    "name": "Functional_test",
+    "commands": [{
+      "id": "6858cd6a-c587-4e51-8f42-5cb47982e422",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.indiamart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4fb6ae0-e9f7-4c81-9665-76a3c5cb5b36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d596989-dfb9-4547-bf7f-0d2f2aafb435",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.container > a > img",
+      "targets": [
+        ["css=.container > a > img", "css:finder"],
+        ["xpath=//img[@alt='Indiamart Banner']", "xpath:img"],
+        ["xpath=//section[@id='InvestorBanner']/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf34e7a8-0ca5-4ba5-81f1-fd85a06568e8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.container > a > img",
+      "targets": [
+        ["css=.container > a > img", "css:finder"],
+        ["xpath=//img[@alt='Indiamart Banner']", "xpath:img"],
+        ["xpath=//section[@id='InvestorBanner']/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffed567c-e2fc-4348-8bd9-6c2830b22550",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.container > a",
+      "targets": [
+        ["css=.container > a", "css:finder"],
+        ["xpath=//section[@id='InvestorBanner']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.youtube.com/playlist?list=PL2o4J51MqpL12o539Z8X46RFNxFcsFAqU&utm_source=YouTube&utm_medium=buyerads&utm_campaign=lagishart&utm_id=playlist')]", "xpath:href"],
+        ["xpath=//section/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a07873-9406-4cbe-84b6-2f873a0bc4c3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,306)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "594a5d1d-454a-488d-a7fb-f5cb02f61775",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1122)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e278e0e-5531-47fd-be15-cf019547cc49",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=16",
+      "targets": [
+        ["index=16"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4a3ff7e-2a34-48f1-8454-1cc78d30d8c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bz112c > path:nth-child(1)",
+      "targets": [
+        ["css=.Bz112c > path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea0e6ed-b3bf-4ff1-b14f-efadaef342d6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e65a3cb-3de1-4943-93d6-136b483ff9ac",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='3']/div[2]/div[5]",
+      "targets": [
+        ["xpath=//div[@id='3']/div[2]/div[5]", "xpath:idRelative"],
+        ["xpath=//section[7]/div/div/div/div[2]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eb5af1a-6cf5-47a4-8726-2a318b3727f4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Thermometer']",
+      "targets": [
+        ["xpath=//img[@alt='Thermometer']", "xpath:img"],
+        ["xpath=//div[@id='4']/div[2]/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[9]/div/div/div/div[2]/div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d2a4fe9-c7dd-4a73-b89d-0a29c9265c3f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=4",
+      "targets": [
+        ["id=4", "id"],
+        ["css=#\\34", "css:finder"],
+        ["xpath=//button[@id='4']", "xpath:attributes"],
+        ["xpath=//li[@id='LST4']/div/ul/button", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b28d87b-dc10-471a-9a52-fc1ecfafb0c5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,102)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc74afb8-ca89-414e-941f-65a5801647db",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,102)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4a50fc9-04d2-469d-b80f-9f3aff28355d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=dispid2851157903773",
+      "targets": [
+        ["id=dispid2851157903773", "id"],
+        ["css=#dispid2851157903773", "css:finder"],
+        ["xpath=//button[@id='dispid2851157903773']", "xpath:attributes"],
+        ["xpath=//ul[@id='prd-2']/li[2]/div/button", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li/ul/li/ul/li[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11b5a0b5-ab2c-418c-980e-3afcb079af85",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=dispid2851157903773",
+      "targets": [
+        ["id=dispid2851157903773", "id"],
+        ["css=#dispid2851157903773", "css:finder"],
+        ["xpath=//button[@id='dispid2851157903773']", "xpath:attributes"],
+        ["xpath=//ul[@id='prd-2']/li[2]/div/button", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li/ul/li/ul/li[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3419998-9ad1-409b-bec5-b2eb32b04ed9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=14",
+      "targets": [
+        ["index=14"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecb98cd9-de70-454c-b99a-3931921b1d3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bz112c",
+      "targets": [
+        ["css=.Bz112c", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "63d1fb2f-4cb3-4d36-ab7c-971f005b3d9e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd593023-3d49-4248-a990-2673aec132d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=maskctl",
+      "targets": [
+        ["id=maskctl", "id"],
+        ["css=#maskctl", "css:finder"],
+        ["xpath=//div[@id='maskctl']", "xpath:attributes"],
+        ["xpath=//div[@id='popupContact_s']/div", "xpath:idRelative"],
+        ["xpath=//body/div[5]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7da139c5-484b-4d4c-92d7-4cb42d9d3442",
+      "comment": "",
+      "command": "click",
+      "target": "id=idfpclose",
+      "targets": [
+        ["id=idfpclose", "id"],
+        ["linkText=Skip", "linkText"],
+        ["css=#idfpclose", "css:finder"],
+        ["xpath=//a[contains(text(),'Skip')]", "xpath:link"],
+        ["xpath=//a[@id='idfpclose']", "xpath:attributes"],
+        ["xpath=//div[@id='identyfy_usr_ctl']/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Skip')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc9f100-f7f3-406c-94c1-da40dd12bfb0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=idfpclose",
+      "targets": [
+        ["id=idfpclose", "id"],
+        ["linkText=Skip", "linkText"],
+        ["css=#idfpclose", "css:finder"],
+        ["xpath=//a[contains(text(),'Skip')]", "xpath:link"],
+        ["xpath=//a[@id='idfpclose']", "xpath:attributes"],
+        ["xpath=//div[@id='identyfy_usr_ctl']/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Skip')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14d9f6dc-3f42-4835-abce-a2b73a42928e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#t0901_nextbtn path:nth-child(2)",
+      "targets": [
+        ["css=#t0901_nextbtn path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "525d2241-81b6-4072-8b51-4cbbbd13aedf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#t0901_nextbtn path:nth-child(2)",
+      "targets": [
+        ["css=#t0901_nextbtn path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d9c3a4a-815c-4125-a5d8-ed5dc6f37c23",
+      "comment": "",
+      "command": "click",
+      "target": "css=#t0901_nextbtn path:nth-child(2)",
+      "targets": [
+        ["css=#t0901_nextbtn path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4483d8fd-9ce4-4f11-a7af-0106a76a1c60",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#t0901_nextbtn path:nth-child(2)",
+      "targets": [
+        ["css=#t0901_nextbtn path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8acd5022-3f0b-4baf-ad6a-73c949e54f27",
+      "comment": "",
+      "command": "click",
+      "target": "css=#t0901_nextbtn path:nth-child(2)",
+      "targets": [
+        ["css=#t0901_nextbtn path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac2ee68-16a6-4719-a0cb-f2ffce2e8826",
+      "comment": "",
+      "command": "click",
+      "target": "css=#t0901_nextbtn path:nth-child(2)",
+      "targets": [
+        ["css=#t0901_nextbtn path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b6a36c0-ef80-463d-9ed9-63c520a8c8a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=t0901_cls",
+      "targets": [
+        ["id=t0901_cls", "id"],
+        ["css=#t0901_cls", "css:finder"],
+        ["xpath=//div[@id='t0901_cls']", "xpath:attributes"],
+        ["xpath=//div[@id='t0901_leftR']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "649205f4-0a73-4fb2-a0b8-5a495c934b0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=bu10-0",
+      "targets": [
+        ["id=bu10-0", "id"],
+        ["css=#bu10-0", "css:finder"],
+        ["xpath=//img[@alt='Zeal England Thermometer, 5 DegreeC, For Laboratory']", "xpath:img"],
+        ["xpath=//img[@id='bu10-0']", "xpath:attributes"],
+        ["xpath=//ul[@id='prd-10']/li/img", "xpath:idRelative"],
+        ["xpath=//li[10]/div/ul/li/ul/li/ul/li/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4907e5d7-a32b-4682-a663-a0e527758cf5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4f6115d2-1c4f-48cc-a8f7-a9bf330f6c56"]
+  }],
+  "urls": ["https://www.indiamart.com/"],
+  "plugins": []
+}
